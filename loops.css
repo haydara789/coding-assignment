@@ -1,0 +1,75 @@
+
+body{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #343a40;
+  color: white;
+}
+.container{
+  background-color: aqua;
+}
+.row>div{
+  background-color: #ffc107;
+}
+h1 {
+  margin-top: 20px; /* Spacing above heading */
+}
+
+h2 {
+  margin-top: 20px; /* Spacing above section titles */
+}
+/* Navbar styling */
+.navbar {
+  background-color: #343a40; /* Dark background */
+  border: none; /* Remove border */
+}
+
+.navbar-brand {
+  color: #ffffff; /* White text for brand */
+}
+
+.navbar-nav > li > a {
+  color: #ffffff; /* White text for links */
+  padding: 15px 20px; /* Add padding for better clickability */
+}
+
+/* Change link color on hover */
+.navbar-nav > li > a:hover {
+  color: #ffc107; /* Yellow text on hover */
+  background-color: #495057; /* Darker background on hover */
+}
+
+/* Customize navbar toggle button */
+.navbar-toggle {
+  border-color: #ffffff; /* White border */
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #851010; /* White bars */
+}
+
+/* Media query for responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center; /* Center align menu items on mobile */
+  }
+
+  .navbar-nav > li {
+      float: none; /* Stack menu items vertically */
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-nav {
+      display: flex; /* Flex layout for larger screens */
+      justify-content: flex-start; /* Align items to the left */
+  }
+}
+
+/* Optional: Add some spacing to the container */
+.container-fluid {
+  padding: 15px 20px; /* Add padding to the navbar */
+}
+ul{
+  list-style-type: none;
+}
